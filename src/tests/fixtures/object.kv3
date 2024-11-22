@@ -1,0 +1,8 @@
+<!-- kv3 encoding:text:version{dev-object} format:generic:version{164ad670-5642-43f5-a597-7346c0be2d1a} -->
+{
+	objectValue =
+	{
+		n = 5
+		s = "foo"
+	}
+}

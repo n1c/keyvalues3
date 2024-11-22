@@ -1,0 +1,8 @@
+<!-- kv3 encoding:text:version{dev-simple} format:generic:version{453f4609-f822-41c7-95fd-8be0bc6edbd1} -->
+{
+	name = "Simple Example"
+	version = 1
+	description = "A simple KV3 file"
+	boolValue = false
+	intValue = 128
+}

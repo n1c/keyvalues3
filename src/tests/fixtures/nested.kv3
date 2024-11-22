@@ -1,0 +1,11 @@
+<!-- kv3 encoding:text:version{dev-nested} format:generic:version{aedc7488-21da-46a1-8506-459ddb777479} -->
+{
+	root = {
+		child1 = {
+			value = "nested value 1"
+		}
+		child2 = {
+			value = "nested value 2"
+		}
+	}
+}
