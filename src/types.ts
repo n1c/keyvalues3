@@ -11,3 +11,8 @@ export interface KV3Header {
   encoding: string;
   format: string;
 }
+
+export interface KV3Data {
+  header: KV3Header;
+  object: KV3Object;
+}
