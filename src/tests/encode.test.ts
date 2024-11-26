@@ -33,12 +33,14 @@ describe('kV3 Encoder', () => {
 First line
 Second line
 """
-  arrayValue = [
+  arrayValue =
+  [
     1,
     2,
     3
   ]
-  objectValue = {
+  objectValue =
+  {
     nested = "value"
   }
 }`;

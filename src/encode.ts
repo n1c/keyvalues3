@@ -22,7 +22,6 @@ export function Encode(data: KV3Data, options: EncodeOptions = {}): string {
     }
 
     if (typeof value === 'string') {
-      // Check if it's a multiline string
       if (value.includes('\n')) {
         return `"""\n${value}\n"""`;
       }
@@ -72,7 +71,13 @@ export function Encode(data: KV3Data, options: EncodeOptions = {}): string {
     const spaces = indentChar.repeat((level + 1) * indent);
     const entries = Object.entries(obj).map(([key, value]) => {
       const encodedKey = /^[a-z_]\w*$/i.test(key) ? key : `"${escapeString(key)}"`;
-      return `${spaces}${encodedKey} = ${encodeValue(value, level + 1)}`;
+      const encodedValue = encodeValue(value, level + 1);
+
+      if (typeof value === 'object') {
+        return `${spaces}${encodedKey} =\n${spaces}${encodedValue}`;
+      }
+
+      return `${spaces}${encodedKey} = ${encodedValue}`;
     });
 
     return `{\n${entries.join('\n')}\n${indentChar.repeat(level * indent)}}`;
