@@ -13,7 +13,7 @@ describe('kV3 Encoder', () => {
       object: {
         boolValue: false,
         intValue: 128,
-        doubleValue: 64, // @TODO: We actually want this to be 64.00000
+        doubleValue: 64,
         stringValue: 'hello world',
         multiLineString: 'First line\nSecond line',
         arrayValue: [1, 2, 3],
