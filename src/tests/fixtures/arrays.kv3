@@ -1,0 +1,13 @@
+<!-- kv3 encoding:text:version{dev-arrays} format:generic:version{de945733-e28c-451a-ae05-efa93b491734} -->
+{
+	numbers =
+	[
+		1,
+		2,
+		3,
+		4,
+		5,
+	]
+	strings = ["one", "two", "three"]
+	mixed = [1, "two", { key = "value" }]
+}

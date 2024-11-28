@@ -1,0 +1,7 @@
+<!-- kv3 encoding:text:version{dev-escaped} format:generic:version{6162afff-871c-4556-abac-ca87c7444f34} -->
+{
+	newlines = "line1\nline2"
+	tabs = "value\twith\ttabs"
+	quotes = "String with \"quotes\""
+	backslash = "path\\to\\file"
+}

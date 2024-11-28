@@ -1,0 +1,6 @@
+<!-- kv3 encoding:text:version{dev-keys} format:generic:version{13b4f4eb-abd8-4afa-82f9-70198f3dc8e4} -->
+{
+	simple_key = "value1"
+	"quoted key" = "value2"
+	"key-with-special-chars" = "value3"
+}

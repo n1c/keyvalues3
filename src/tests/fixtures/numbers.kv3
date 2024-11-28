@@ -1,0 +1,6 @@
+<!-- kv3 encoding:text:version{dev-numbers} format:generic:version{ddecbf7f-4577-49ab-89e1-09ade23d7c5b} -->
+{
+	normal = 123
+	negative = -123
+	decimal = 123.456
+}

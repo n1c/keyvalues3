@@ -1,0 +1,33 @@
+{
+  "name": "keyvalues3",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Parser for Valve KeyValues3 files",
+  "author": "n1c",
+  "license": "ISC",
+  "homepage": "https://github.com/n1c/keyvalues3#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n1c/keyvalues3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/n1c/keyvalues3/issues"
+  },
+  "keywords": [
+    "KeyValues3"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.9.2",
+    "@types/node": "^22.9.1",
+    "eslint": "^9.15.0",
+    "eslint-plugin-format": "^0.1.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}
